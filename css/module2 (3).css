@@ -1211,7 +1211,6 @@ input:focus {
     /* TRENDS */
 
     .trends-section {
-
         flex-wrap: wrap;
     }
 
@@ -1239,16 +1238,16 @@ input:focus {
     }
 
     .main-posts {
+        max-width: none; 
         flex-direction: column;
     }
 
     .post-item {
         flex-direction: column;
-
     }
 
     .top-posts-tag {
-        margin: auto;
+        margin: 0;
         margin-top: 15px;
     }
 
@@ -1279,7 +1278,7 @@ input:focus {
     .card-section {
         width: 100%;
         flex-direction: column;
-        /* margin: auto; - не хочет делать отступы по справа и слева*/ 
+        padding: 15px;
     }
 
     .card-section .card-item {
